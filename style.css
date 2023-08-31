@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+.redes-section {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.redes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-container a {
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.redes-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
